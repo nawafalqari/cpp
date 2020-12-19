@@ -6,7 +6,7 @@ int main()
     int currentYear = 2020;
     int year;
 
-    cout << "Year..." << endl;
+    cout << "Write your birth year..." << endl;
 
     cin >> year;
 
