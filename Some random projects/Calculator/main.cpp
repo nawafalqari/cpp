@@ -6,11 +6,18 @@ int main()
 
     int choice;
 
-    cout << "1- +\n2- -\n3- x\n4- /" << endl;
+    while(true) {
+    cout << "1- +\n2- -\n3- x\n4- /\n5- Exit" << endl;
 
     cout << "Enter... ";
 
     cin >> choice;
+
+    if(choice == 5) {
+        exit(1);
+    }
+
+    
 
     if(choice >= 1 && choice <= 4) {
         cout << "Enter first num... ";
@@ -35,11 +42,13 @@ int main()
             int result = a / b;
             cout << a << " / " << b << " = " << result << endl;
         }
+        
 
     }
 
     else {
         cout << "Nope" << endl;
+    }
     }
 
     return 0;
