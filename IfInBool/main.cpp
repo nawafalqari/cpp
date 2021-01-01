@@ -15,12 +15,12 @@ int main()
 
 
 
-    cout << "== " << equal << endl;
-    cout << "!= " << notEqual << endl;
-    cout << "< " << less << endl;
-    cout << "> " << greater << endl;
-    cout << "<= " << lessOrEqual << endl;
-    cout << "<= " << greaterOrEqual << endl;
+    cout << "== " << equal << endl; // 0 is false, 1 is true
+    cout << "!= " << notEqual << endl; // 0 is false, 1 is true
+    cout << "< " << less << endl; // 0 is false, 1 is true
+    cout << "> " << greater << endl; // 0 is false, 1 is true
+    cout << "<= " << lessOrEqual << endl; // 0 is false, 1 is true
+    cout << "<= " << greaterOrEqual << endl; // 0 is false, 1 is true
 
     return 0;
 }
